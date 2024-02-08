@@ -34,9 +34,9 @@
         <section id="galerie">
             <h2>Galerie foto</h2>
             <div class="image-gallery">
-                <img src="pasare1.jpg" alt="Pasare 1">
-                <img src="pasare2.jpg" alt="Pasare 2">
-                <img src="pasare3.jpg" alt="Pasare 3">
+                <jpg src="pasare1.jpg" alt="Pasare 1">
+                <jpg src="pasare2.jpg" alt="Pasare 2">
+                <jpg src="pasare3.jpg" alt="Pasare 3">
             </div>
         </section>
         <section id="contact">
