@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="ro">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Păsări - Descoperă lumea păsărilor</title>
+    <link rel="stylesheet" href="styles.css"> <!-- Fișierul CSS extern -->
+</head>
+<body>
+    <header>
+        <div class="container">
+            <h1>Descoperă lumea păsărilor</h1>
+        </div>
+    </header>
+    <nav>
+        <div class="container">
+            <ul>
+                <li><a href="index.html">Acasă</a></li>
+                <li><a href="despre.html">Despre</a></li>
+                <li><a href="specii.html">Specii</a></li>
+                <li><a href="contact.html">Contact</a></li>
+            </ul>
+        </div>
+    </nav>
+    <section id="banner">
+        <div class="container">
+            <h2>Bine ați venit pe site-ul nostru!</h2>
+            <p>Aici veți găsi informații interesante despre păsări din întreaga lume.</p>
+        </div>
+    </section>
+    
+    <section id="videoclip">
+        <div class="container">
+            <h2>Descoperă păsările în mișcare</h2>
+            <video controls>
+                <source src="video/pasari.mp4" type="video/mp4">
+                <source src="video/pasari.webm" type="video/webm">
+                Your browser does not support the video tag.
+            </video>
+        </div>
+    </section>
+    
+    <section id="despre">
+        <div class="container">
+            <h2>Despre</h2>
+            <p>Această secțiune va conține informații despre importanța conservării păsărilor, habitatul lor și alte aspecte interesante.</p>
+        </div>
+    </section>
+    <section id="specii">
+        <div class="container">
+            <h2>Specii</h2>
+            <p>Această secțiune va conține o listă de specii de păsări, fiecare cu propria sa pagină dedicată.</p>
+        </div>
+    </section>
+    <section id="contact">
+        <div class="container">
+            <h2>Contact</h2>
+            <p>Pentru orice întrebări sau sugestii, nu ezitați să ne contactați folosind formularul de mai jos.</p>
+        </div>
+    </section>
+    <footer>
+        <div class="container">
+            <p>&copy; 2024 Descoperă lumea păsărilor. Toate drepturile rezervate.</p>
+        </div>
+    </footer>
+</body>
+</html>
