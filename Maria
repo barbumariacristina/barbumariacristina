@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="ro">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Păsări - Descoperă lumea păsărilor</title>
+    <link rel="stylesheet" href="styles.css"> <!-- Fișierul CSS extern -->
+</head>
+<body>
+    <header>
+        <div class="container">
+            <h1>Descoperă lumea păsărilor</h1>
+        </div>
+    </header>
+    <nav>
+        <div class="container">
+            <ul>
+                <li><a href="index.html">Acasă</a></li>
+                <li><a href="despre.html">Despre</a></li>
+                <li><a href="specii.html">Specii</a></li>
+                <li><a href="contact.html">Contact</a></li>
+            </ul>
+        </div>
+    </nav>
+    <section id="banner">
+        <div class="container">
+            <h2>Bine ați venit pe site-ul nostru!</h2>
+            <p>Aici veți găsi informații interesante despre păsări din întreaga lume.</p>
+        </div>
+    </section>
+    
+    <section id="videoclip">
+        <div class="container">
+            <h2>Videoclip: Păsări în sălbăticie</h2>
+            <video controls>
+                <source src="video/pasari.mp4" type="video/mp4">
+                <source src="video/pasari.webm" type="video/webm">
+                Your browser does not support the video tag.
+            </video>
+        </div>
+    </section>
+    
+    <section id="despre">
+        <div class="container">
+            <h2>Despre păsări</h2>
+            <p>Păsările sunt vertebrate cu sânge cald, acoperite cu pene și membre superioare modificate în aripi, adaptate pentru zbor. Ele sunt una dintre cele mai diverse grupe de animale de pe Pământ, cu specii care variază de la mici colibri la mari struți.</p>
+        </div>
+    </section>
+    
+    <section id="galerie">
+        <div class="container">
+            <h2>Galerie foto</h2>
+            <div class="image-container">
+                <img src="img/pasare1.jpg" alt="Pasare 1">
+                <img src="img/pasare2.jpg" alt="Pasare 2">
+                <img src="img/pasare3.jpg" alt="Pasare 3">
+            </div>
+        </div>
+    </section>
+    
+    <footer>
+        <div class="container">
+            <p>&copy; 2024 Descoperă lumea păsărilor. Toate drepturile rezervate.</p>
+        </div>
+    </footer>
+</body>
+</html>
