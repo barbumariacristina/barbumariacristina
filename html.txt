@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="ro">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Landing Page</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <h1>Bun venit pe Landing Page-ul meu!</h1>
+        <p>Acesta este un site simplu creat cu Notepad.</p>
+        <a href="#contact" class="btn">Contactează-ne</a>
+    </header>
+
+    <section id="contact">
+        <h2>Contact</h2>
+        <p>Email: contact@exemplu.com</p>
+    </section>
+</body>
+</html>
